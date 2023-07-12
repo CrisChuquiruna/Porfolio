@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --title_text: 'Bebas Neue', sans-serif;
+    --text: 'Open Sans', sans-serif;
+
+    --color_title_text: var(--color2);
+    --color_text: var(--color4);
+
+    --background_1: var(--color1);
+
+
+    /* Paleta 1 */
+    /* --color1: #ed6464;
+    --color2: #bf6370;
+    --color3: #87586c;
+    --color4: #574759;
+    --color5: #1a1b1c;
+     */
+    /* Paleta 1 */
+    --color1: #648285;
+    --color2: #2A7178;
+    --color3: #475C5E;
+    --color4: #2c393a;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #f7f2ff;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    font-family: var(--title_text);
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: beige;
+    text-decoration: none;
+}
+

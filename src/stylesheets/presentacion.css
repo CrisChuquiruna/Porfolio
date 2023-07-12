@@ -1,0 +1,33 @@
+
+.presentacion_recuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 85vh;
+
+    background-color: var(--background_1);
+    background-image: url(../assets/background1.png);
+}
+
+.presentacion_recuadro_texto{
+    text-align: center;
+    background-color: #f5f5dc;
+    padding: 10px;
+}
+
+.presentacion_recuadro h1{
+    /* color: beige; */
+    color: var(--background_1);
+    font-size: 4rem;
+    font-family: var(--title_text);
+}
+
+.presentacion_recuadro h2{
+    padding-top: 15px;
+    color: beige;
+    font-size: 2.3rem;
+    font-family: var(--text);
+    font-weight: 400;
+}

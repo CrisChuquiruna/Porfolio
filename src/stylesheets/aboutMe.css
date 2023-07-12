@@ -1,0 +1,55 @@
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;    
+    gap: 5rem;
+}
+
+.aboutMe h1{   
+    width: 100%;
+    font-size: 43px;
+    font-family: var(--title_text);
+    color: var(--color_title_text);
+}
+
+.aboutMe__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    width: 60%;
+    height: 80vh;
+    gap: 5rem;
+}
+
+.aboutMe img{
+    width: 20rem;
+    height: 20rem; 
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.aboutMe__container p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: var(--text);
+    line-height: 30px;
+    color: var(--color_text);
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutMe img{
+        display: none;
+    }
+
+    .aboutMe__container{
+        width: 90%;        
+    }    
+
+    .aboutMe__container p{
+        font-size: 1.2rem;
+    }
+}
