@@ -21,7 +21,8 @@
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://crischuquiruna.github.io/Porfolio/"
 }

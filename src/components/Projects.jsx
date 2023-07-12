@@ -14,24 +14,6 @@ export const Projects = ({ title }) => {
         text={'Desarrollado con Javascript, HTML y CSS. En el contexto de practicar Programación orientada a objetos.'}
         link={'https://crischuquiruna.github.io/Cuatro-en-Linea/'}
       />
-      <Card
-        img={imgCuatroEnLinea}
-        title={'Cuatro en linea'}
-        text={'Desarrollado con Javascript, HTML y CSS. En el contexto de practicar Programación orientada a objetos.'}
-        link={'https://crischuquiruna.github.io/Cuatro-en-Linea/'}
-      />
-      <Card
-        img={imgCuatroEnLinea}
-        title={'Cuatro en linea'}
-        text={'Desarrollado con Javascript, HTML y CSS. En el contexto de practicar Programación orientada a objetos.'}
-        link={'https://crischuquiruna.github.io/Cuatro-en-Linea/'}
-      />
-      <Card
-        img={imgCuatroEnLinea}
-        title={'Cuatro en linea'}
-        text={'Desarrollado con Javascript, HTML y CSS. En el contexto de practicar Programación orientada a objetos.'}
-        link={'https://crischuquiruna.github.io/Cuatro-en-Linea/'}
-      />
     </section>
     </>
   )
