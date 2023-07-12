@@ -19,5 +19,7 @@
   "scripts": {
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix"
-  }
+    
+  },
+  "homepage" : "https://crischuquiruna.github.io/Porfolio/"
 }
