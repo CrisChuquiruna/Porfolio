@@ -19,6 +19,8 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   min-height: 16rem;
   width: 15rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -56,11 +58,10 @@
 }
 
 #link {
-  display: flex;
-  justify-content: flex-end;
+  align-self: flex-end;
   font-family: system-ui;
   font-size: 0.9rem;
-  text-align: right;
   margin: 15px;
   text-decoration: underline;
+  color: beige;
 }

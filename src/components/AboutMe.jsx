@@ -9,6 +9,9 @@ export const AboutMe = ({ img, text }) => {
         <div className='aboutMe__container'>
           <h1 className='title'>Acerca de mí</h1>
           <p>{ text }</p>
+          <a href="https://drive.google.com/file/d/1JUSS9CVUkWqufnae0XtWOwGHzmJv7ygn/view?usp=sharing" target="_blank" rel="noreferrer">
+            Mi Curriculum
+          </a>
         </div>
     </section>
   )
