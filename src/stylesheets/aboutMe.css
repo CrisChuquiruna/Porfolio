@@ -48,7 +48,7 @@
     border: 1px solid var(--color_title_text);
     border-radius: 15px;
     padding: 5px;
-    align-self: end;
+    align-self: center;
 }
 
 @media only screen and (max-width: 600px) {

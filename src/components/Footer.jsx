@@ -6,7 +6,6 @@ export const Footer = ({ mail, name, secondname }) => {
   return (
     <footer className='footer'>
         <Icons />
-        <p>{mail}</p>
         <p>Designed &amp; Built by {name} {secondname}</p>
     </footer>
   )
