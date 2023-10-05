@@ -6,7 +6,7 @@
     align-items: center;
     width: 90%;
     height: 85vh;
-
+    border-radius: 15px;
     background-color: var(--background_1);
     background-image: url(../assets/background1.png);
 }
@@ -15,6 +15,7 @@
     text-align: center;
     background-color: #f5f5dc;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .presentacion_recuadro h1{
