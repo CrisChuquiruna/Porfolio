@@ -1,22 +1,15 @@
 
-.presentacion_recuadro{
+.presentacion{    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.presentacion_recuadro{
     width: 90%;
     height: 85vh;
-    border-radius: 15px;
-    background-color: var(--background_1);
-    background-image: url(../assets/background1.png);
 }
 
-.presentacion_recuadro_texto{
-    text-align: center;
-    background-color: #f5f5dc;
-    padding: 10px;
-    border-radius: 15px;
-}
 
 .presentacion_recuadro h1{
     /* color: beige; */

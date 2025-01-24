@@ -1,25 +1,23 @@
 .skills {
-  width: 100%;
-  min-height: 60vh;
+  width: 90%;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   margin-top: 5rem;
 }
 
 .skills h1{  
-  width: 20%;
   font-size: 43px;
   font-family: var(--title_text);
-  color: var(--color_title_text);
+  color: var(--background_1);
   text-align: center;
 }
 
 .skills svg {
   align-self: center;
-  fill:var(--color_title_text);
+  fill: #f5f5dc;
   height: 5rem;
   width: 5rem;
 }
@@ -29,8 +27,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3.5rem;
   width: 50%;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .skill { 
@@ -44,13 +42,12 @@
   padding-top: 2px;
   font-size: 25px;
   font-family: var(--title_text);
-  color: var(--color_title_text);
+  color: beige;
   text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
   .skills svg {
-    fill:var(--color_title_text);
     height: 3rem;
     width: 3rem;
   }
